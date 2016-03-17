@@ -7,6 +7,9 @@ var winston = require('winston');
 
 var token = process.env.TOKEN;
 
+token = 'xoxb-26973343159-djKlBkZpF6sXZBwexjbnwtIs';
+
+
 describe('Test', function() {
     it('should have a token', function(done) {
         should.exist(token);
